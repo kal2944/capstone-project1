@@ -1,18 +1,23 @@
 # capstone-project1
-This is my first capstone project 
+This is my first capstone project in microverse and its all about made for an interior design school that shows on about page all description,history , logo and other informations are provided there and beside that there is a celebration message on home page thats to reflect my company's class of 2022 celebration plus invitation are mentioned and also i have added the featured speakers for event and partner companies .
 
 ***
 ## Built With
 
 - html , css and javascript
 
-*** 
-## Getting Started
-**to implement and run this project you should have the** following prerequisites  
 
-## Prerequisites
-- Text editor
-- browser like crome
+## Descrption Video 
+Here is a [video](https://www.loom.com/share/97cbbf0230164f16965541fd41dfcca3) that illustrate the main idea of my website 
+
+*** 
+## you can clone the project
+-git clone project-link
+-cd project -name
+ 
+
+## you can run the live server to see the project
+- run home html
 
 
 ## Show your support
@@ -29,6 +34,7 @@ give tumps if you like this project.
 
 
 ## Acknowledgements
+- all credits goes to this creative graphic desginer Guy  [Cindy Shin in Behance](https://www.behance.net/adagio07) the [ author of original design ](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 🤝 Contributing
 

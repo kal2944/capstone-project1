@@ -23,51 +23,51 @@ navLinks.forEach((link) => {
 const speakers = [
   {
     id: 1,
-    img: '../images/speakers/nate-speaker1.jpg',
-    name: 'Nate Berkus',
-    bio: 'born, 1971 California, United States.',
+    img: '../images/speakers/speaker_01.png',
+    name: 'Yochai Bankler',
+    bio: 'Professor at Harvard Low School',
     about:
-      'He runs the Chicago interior design firm Nate Berkus  was a regularly featured guest on The Oprah Winfrey Show.',
+    'Focusing on a collaborative approach in a networked environment, he created the concept ofco-production based on sharing',
   },
   {
     id: 2,
-    img: '../images/speakers/kelly-speaker2.jpg',
-    name: 'Kelly Wearstler',
-    bio: 'born, 1967 Myrtle Beach, South Carolina.',
+    img: '../images/speakers/speaker_02.png',
+    name: 'Kilnam Chol',
+    bio: 'Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)',
     about:
-      'she is an American designer creating multi-faceted, experiential residential, hospitality, commercial and retail environments as well as expansive collections of lifestyle product designs',
+    'By developing Asias first Internet protocol network SDN and leading Koreas first private line Internet connection in 1990.',
   },
   {
     id: 3,
-    img: '../images/speakers/Tiffany-speaker3.jpeg',
-    name: 'Tiffany Brooks',
-    bio: 'born, 1979  an American interior designer.',
+    img: '../images/speakers/speaker_03.png',
+    name: 'Sohyeong Noh',
+    bio: 'Art Center Nabi Director, CC Korea Director',
     about:
-      "She was the season eight winner of HGTV Star and also hosted HGTV's The Most Embarrassing Rooms in America.",
+    'As the author of [Digital Art Art of Our Time], he opened Art Center Nabi, Koreas first digital art institution in 2000.',
   },
   {
     id: 4,
-    img: '../images/speakers/justina-speaker4.webp',
-    name: 'Justina Blakeney',
-    bio: 'Born, 1979  California, United States.',
+    img: '../images/speakers/speaker_04.png',
+    name: 'Julia Reda',
+    bio: 'Head of the Young Pirates of Europe',
     about:
-      'she is a designer, artist, entrepreneur, speaker, and bestselling author. She is the founder and creative director of home décor brand.',
+    'European integration and online youth participation in politics and democracy are major concerns,and a report has been published that will potentially affect.',
   },
   {
     id: 5,
-    img: '../images/speakers/thomas-speaker5.jpg',
-    name: "Thomas O'Brien",
-    bio: 'Born, 1961  New York, United States.',
+    img: '../images/speakers/speaker_05.png',
+    name: 'Lila Tretikov',
+    bio: 'Secretary General of the Wikimedia Foundation',
     about:
-      'He is an interior and home furnishings designer based in New York City. He is the founder and President of Aero Studios',
+    'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over 100 million people',
   },
   {
     id: 6,
-    img: '../images/speakers/bobby-speaker6.jpg',
-    name: 'Bobby Berk',
-    bio: 'Born, 1981  Texas, United States',
+    img: '../images/speakers/speaker_06.png',
+    name: 'Ryan Merkley',
+    bio: 'Creative Commons CEO, Former Mozilla Foundation COO',
     about:
-      'He is an American interior designer, reality television personality and author.',
+    'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.',
   },
 ];
 
@@ -96,27 +96,8 @@ const displaySpeakers = speakers.map(
 
 const seeMore = document.querySelector('.see-more');
 const seeLess = document.querySelector('.see-less');
-
-// seeMore.addEventListener('click', () => {
-//   document.getElementById('wrapper').innerHTML = displaySpeakers.join('');
-//   seeMore.style.display = 'none';
-//   seeLess.style.display = 'block';
-// });
-
-// seeLess.addEventListener('click', () => {
-//   document.getElementById('wrapper').innerHTML = displaySpeakers
-//     .splice(0, 2)
-//     .join('');
-// });
-
 window.addEventListener('DOMContentLoaded', () => {
   document.getElementById('wrapper').innerHTML = displaySpeakers.join('');
   seeMore.style.display = 'none';
   seeLess.style.display = 'none';
-
-  // else {
-  //   document.getElementById("wrapper").innerHTML = displaySpeakers.splice(0,2).join("");
-  //   seeMore.style.display = "block";
-  //   seeLess.style.display = "none";
-  // }
 });
