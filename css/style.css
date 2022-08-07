@@ -413,34 +413,6 @@ a {
   color: #dddedf;
 }
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>> */
-
-.footer-info {
-  height: 20vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  margin: auto 2rem;
-  padding: 2rem 0;
-  background-color: white;
-  width: 98%;
-}
-
-h5 {
-  width: 50%;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.footer-info p {
-  padding-top: 1in;
-  width: 50%;
-  text-align: start;
-  font-size: 0.85rem;
-  color: black;
-}
-
 /* Larger Screen */
 @media screen and (min-width: 768px) {
   /* <<<<<<<  Navbar >>>>>>> */
@@ -582,7 +554,42 @@ h5 {
   .p-logo {
     width: 150px;
   }
+
+  .partner {
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>> */
+.footer-info {
+  height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: auto 1rem;
+  padding: 0 rem 0;
+  background-color: white;
+  width: 98%;
+}
+
+h5 {
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer-info p {
+  padding-top: 1in;
+  width: 50%;
+  text-align: start;
+  font-size: 0.85rem;
+  color: black;
+}
+
 
 /* about */
 
@@ -747,7 +754,7 @@ h5 {
 
 .alumni-img {
   width: 350px;
-  height: 200px;
+  height: 140px;
   background-image:
     linear-gradient(
       rgba(167, 27, 27, 0.842),
@@ -772,6 +779,7 @@ h5 {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+
 /* ABout Section for larger screens */
 @media screen and (min-width: 768px) {
   .welcome {
@@ -782,7 +790,7 @@ h5 {
     font-size: 3rem;
     padding: 1.5in;
     padding-bottom: 0%;
-    padding-top: 0%;
+    padding-top: 5%;
   }
 
   .welcome-msg {
@@ -792,11 +800,11 @@ h5 {
   .modal-desktop {
     display: block;
     width: 70%;
-    padding: 8rem 3rem;
+    padding: 6rem 3rem;
     margin: 0.5rem auto;
     border: 2px solid #e5e5e5;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.1;
     font-size: 0.9rem;
     color: #272a31;
     background-color: #fff;
@@ -846,11 +854,14 @@ h5 {
 
   .alumni-img {
     margin: 2rem 0;
+    width: 350px;
+    height: 200px;
   }
 
   .footer-info {
     background-color: #272a31;
     width: 98%;
+    padding-left: 0 in;
   }
 
   h5 {

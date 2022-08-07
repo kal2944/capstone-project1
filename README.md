@@ -6,6 +6,9 @@ This is my first capstone project in microverse and its all about made for an in
 
 - html , css and javascript
 
+## Live Demo 
+
+[Live Demo Link](https://kal2944.github.io/capstone-project1/)
 
 ## Descrption Video 
 Here is a [video](https://www.loom.com/share/97cbbf0230164f16965541fd41dfcca3) that illustrate the main idea of my website 
