@@ -15,9 +15,8 @@ navLinks.forEach((link) => {
     hambugerMenu.classList.remove('active');
 
     navMenu.classList.remove('active');
-   });
+  });
 });
-
 
 const speakers = [
   {

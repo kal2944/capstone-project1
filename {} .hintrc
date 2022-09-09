@@ -13,7 +13,6 @@
     "html-checker",
     "meta-charset-utf-8",
     "meta-viewport",
-    "no-inline-styles:error",
-    "compat-api/css: off"
+    "no-inline-styles:error"
   ]
 }

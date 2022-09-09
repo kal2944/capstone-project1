@@ -40,7 +40,6 @@ a {
   padding: 0 20px;
   min-height: 70px;
   background: white;
-  
 }
 
 .nav-link {
@@ -196,7 +195,6 @@ a {
 
 .headline h1:hover {
   background-position: left bottom;
-  
 }
 
 .headline-box {
@@ -328,7 +326,6 @@ a {
   flex-direction: column;
   gap: 5px;
   margin: 2rem;
-  
 }
 
 .featured-speakers h2 {
@@ -355,7 +352,6 @@ a {
   width: 10vw;
   height: 10vw;
 }
-
 
 .speaker-content {
   margin-left: 1rem;
@@ -413,7 +409,6 @@ a {
   flex-wrap: wrap;
   gap: 5px;
   width: 100%;
- 
 }
 
 .p-logo {
@@ -421,6 +416,7 @@ a {
   height: 75px;
   margin: 1rem;
 }
+
 /* Larger Screen */
 @media screen and (min-width: 768px) {
   /* <<<<<<<  Navbar >>>>>>> */
@@ -488,7 +484,7 @@ a {
 
   .headline h1 {
     font-size: 2.5rem;
-    padding-top: 0 cm;
+    padding-top: 0cm;
   }
 
   .headline p {
@@ -578,12 +574,12 @@ a {
   justify-content: flex-start;
   align-items: center;
   align-content: center;
+
   /* margin: 0 2rem; */
-   padding: 2rem  ; 
-   background-color: #272a31;
-   /* width: 98%; */
-   
-  
+  padding: 2rem;
+  background-color: #272a31;
+
+  /* width: 98%; */
 }
 
 h5 {
@@ -768,7 +764,7 @@ h5 {
   width: 350px;
   height: 150px;
   background-image:
-    linear-gradient( rgba(167, 27, 27, 0.842),  rgba(230, 57, 57, 0.7) ),
+    linear-gradient(rgba(167, 27, 27, 0.842), rgba(230, 57, 57, 0.7)),
     url("../images/alumini/Atlanta_rooftop_Festival-Of-Lights_6_DS.jpg");
   background-size: cover;
   background-position: center;
@@ -868,21 +864,19 @@ h5 {
   }
 
   .footer-info {
-    background-color:#dddedf;
+    background-color: #dddedf;
     width: 98%;
     padding-left: 0 in;
   }
 
   h5 {
     color: black;
-    
-
   }
 
   .footer-info p {
     text-align: start;
     font-size: 0.9rem;
-    color:black;
+    color: black;
     padding-left: 0 cm;
   }
 }
