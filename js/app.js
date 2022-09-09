@@ -1,8 +1,6 @@
 // Navigation
 const hambugerMenu = document.querySelector('.hambuger');
-
 const navMenu = document.querySelector('.nav-menu');
-
 const navLinks = document.querySelectorAll('.nav-link');
 
 // Toggle the menu
@@ -17,57 +15,58 @@ navLinks.forEach((link) => {
     hambugerMenu.classList.remove('active');
 
     navMenu.classList.remove('active');
-  });
+   });
 });
+
 
 const speakers = [
   {
     id: 1,
-    img: '../images/speakers/speaker_01.png',
-    name: 'Yochai Bankler',
-    bio: 'Professor at Harvard Low School',
+    img: './images/speakers/speaker01.jpg',
+    name: 'Nate Berkus',
+    bio: 'born, 1971 California, United States.',
     about:
-    'Focusing on a collaborative approach in a networked environment, he created the concept ofco-production based on sharing',
+      'He runs the Chicago interior design firm Nate Berkus  was a regularly featured guest on The Oprah Winfrey Show.',
   },
   {
     id: 2,
-    img: '../images/speakers/speaker_02.png',
-    name: 'Kilnam Chol',
-    bio: 'Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)',
+    img: './images/speakers/speaker02.jpg',
+    name: 'Kelly Wearstler',
+    bio: 'born, 1967 Myrtle Beach, South Carolina.',
     about:
-    'By developing Asias first Internet protocol network SDN and leading Koreas first private line Internet connection in 1990.',
+      'she is an American designer creating multi-faceted, experiential residential, hospitality, commercial and retail environments as well as expansive collections of lifestyle product designs',
   },
   {
     id: 3,
-    img: '../images/speakers/speaker_03.png',
-    name: 'Sohyeong Noh',
-    bio: 'Art Center Nabi Director, CC Korea Director',
+    img: './images/speakers/speaker03.jpg',
+    name: 'Thomas O.Brien',
+    bio: 'Born, 1961  New York, United States.',
     about:
-    'As the author of [Digital Art Art of Our Time], he opened Art Center Nabi, Koreas first digital art institution in 2000.',
+      'He is an interior and home furnishings designer based in New York City. He is the founder and President of Aero Studios',
   },
   {
     id: 4,
-    img: '../images/speakers/speaker_04.png',
-    name: 'Julia Reda',
-    bio: 'Head of the Young Pirates of Europe',
+    img: './images/speakers/speaker04.webp',
+    name: 'Justina Blakeney',
+    bio: 'Born, 1979  California, United States.',
     about:
-    'European integration and online youth participation in politics and democracy are major concerns,and a report has been published that will potentially affect.',
+      'she is a designer, artist, entrepreneur, speaker, and bestselling author. She is the founder and creative director of home décor brand.',
   },
   {
     id: 5,
-    img: '../images/speakers/speaker_05.png',
-    name: 'Lila Tretikov',
-    bio: 'Secretary General of the Wikimedia Foundation',
+    img: './images/speakers/speaker05.jpeg',
+    name: 'Tiffany Brooks',
+    bio: 'born, 1979  an American interior designer.',
     about:
-    'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over 100 million people',
+      'She was the season eight winner of HGTV Star and also hosted HGTVs The Most Embarrassing Rooms in America.',
   },
   {
     id: 6,
-    img: '../images/speakers/speaker_06.png',
-    name: 'Ryan Merkley',
-    bio: 'Creative Commons CEO, Former Mozilla Foundation COO',
+    img: './images/speakers/speaker06.jpg',
+    name: 'Bobby Berk',
+    bio: 'Born, 1981  Texas, United States',
     about:
-    'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.',
+      'He is an American interior designer, reality television personality and author.',
   },
 ];
 
