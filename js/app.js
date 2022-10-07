@@ -21,7 +21,7 @@ navLinks.forEach((link) => {
 const speakers = [
   {
     id: 1,
-    img: './images/speakers/speaker01.jpg',
+    img: '../images/speakers/speaker01.jpg',
     name: 'Nate Berkus',
     bio: 'born, 1971 California, United States.',
     about:
@@ -29,7 +29,7 @@ const speakers = [
   },
   {
     id: 2,
-    img: './images/speakers/speaker02.jpg',
+    img: '../images/speakers/speaker02.jpg',
     name: 'Kelly Wearstler',
     bio: 'born, 1967 Myrtle Beach, South Carolina.',
     about:
@@ -37,7 +37,7 @@ const speakers = [
   },
   {
     id: 3,
-    img: './images/speakers/speaker03.jpg',
+    img: '../images/speakers/speaker03.jpg',
     name: 'Thomas O.Brien',
     bio: 'Born, 1961  New York, United States.',
     about:
@@ -45,7 +45,7 @@ const speakers = [
   },
   {
     id: 4,
-    img: './images/speakers/speaker04.webp',
+    img: '../images/speakers/speaker04.webp',
     name: 'Justina Blakeney',
     bio: 'Born, 1979  California, United States.',
     about:
@@ -53,7 +53,7 @@ const speakers = [
   },
   {
     id: 5,
-    img: './images/speakers/speaker05.jpeg',
+    img: '../images/speakers/speaker05.jpeg',
     name: 'Tiffany Brooks',
     bio: 'born, 1979  an American interior designer.',
     about:
@@ -61,7 +61,7 @@ const speakers = [
   },
   {
     id: 6,
-    img: './images/speakers/speaker06.jpg',
+    img: '../images/speakers/speaker06.jpg',
     name: 'Bobby Berk',
     bio: 'Born, 1981  Texas, United States',
     about:
