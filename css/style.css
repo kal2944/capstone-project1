@@ -488,7 +488,7 @@ a {
   }
 
   .headline p {
-    font-size: 1px;
+    font-size: 2.5rem;
   }
 
   .headline-box {
@@ -597,8 +597,8 @@ h5 {
   color: #dddedf;
 }
 
-/* about */
 
+/* about */
 .welcome {
   height: 63vh;
   padding: 0.5rem 2rem;
@@ -811,11 +811,11 @@ h5 {
     font-size: 0.8rem;
     color: #272a31;
     background-color: #fff;
-    transition: 0 in ease-out;
+    transition: 0.5s ease-in-out;
   }
 
   .modal-desktop:hover {
-    transform: translateY(-0.8rem);
+    transform: scale(-0.8);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
 
@@ -864,7 +864,7 @@ h5 {
   .footer-info {
     background-color: #dddedf;
     width: 98%;
-    padding-left: 0 in;
+    padding-left: 0;
   }
 
   h5 {
@@ -875,6 +875,6 @@ h5 {
     text-align: start;
     font-size: 0.9rem;
     color: black;
-    padding-left: 0 cm;
+    padding-left: 0;
   }
 }
