@@ -484,11 +484,11 @@ a {
 
   .headline h1 {
     font-size: 2.5rem;
-    padding-top: 0cm;
+    padding-top: 0;
   }
 
   .headline p {
-    font-size: rem;
+    font-size: 1px;
   }
 
   .headline-box {
@@ -596,7 +596,6 @@ h5 {
   font-size: 0.85rem;
   color: #dddedf;
 }
-
 
 /* about */
 
@@ -783,7 +782,6 @@ h5 {
   transform: translateY(-0.8rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
-
 
 /* ABout Section for larger screens */
 @media screen and (min-width: 768px) {
