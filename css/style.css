@@ -78,7 +78,7 @@ a {
 
 .bar {
   display: block;
-  width: 24px;
+  width: 25px;
   height: 3px;
   margin: 5px auto;
   background-color: #494646;
@@ -488,7 +488,7 @@ a {
   }
 
   .headline p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .headline-box {
@@ -599,7 +599,7 @@ h5 {
 
 /* about */
 .welcome {
-  height: 63vh;
+  height: 62vh;
   padding: 0.5rem 2rem;
 }
 
@@ -760,7 +760,7 @@ h5 {
 
 .alumni-img {
   width: 350px;
-  height: 140px;
+  height: 150px;
   background-image:
     linear-gradient(rgba(167, 27, 27, 0.842), rgba(230, 57, 57, 0.7)),
     url("../images/alumini/Atlanta_rooftop_Festival-Of-Lights_6_DS.jpg");
@@ -856,8 +856,8 @@ h5 {
 
   .alumni-img {
     margin: 2rem 0;
-    width: 419px;
-    height: 250px;
+    width: 420px;
+    height: 300px;
   }
 
   .footer-info {
