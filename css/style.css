@@ -760,7 +760,7 @@ h5 {
 
 .alumni-img {
   width: 350px;
-  height: 150px;
+  height: 140px;
   background-image:
     linear-gradient(rgba(167, 27, 27, 0.842), rgba(230, 57, 57, 0.7)),
     url("../images/alumini/Atlanta_rooftop_Festival-Of-Lights_6_DS.jpg");
@@ -857,7 +857,7 @@ h5 {
   .alumni-img {
     margin: 2rem 0;
     width: 420px;
-    height: 300px;
+    height: 250px;
   }
 
   .footer-info {
